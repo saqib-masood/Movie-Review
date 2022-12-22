@@ -1,4 +1,4 @@
-
+#my first edit on github
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
@@ -26,7 +26,6 @@ def decode_review(text):
 	return " ".join([reverse_word_index.get(i, "?") for i in text])
 
 # this function will return the decoded (human readable) reviews
-
 # print(decode_review(test_data[5]))
 '''
 #model
